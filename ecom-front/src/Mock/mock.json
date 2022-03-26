@@ -1,0 +1,9 @@
+{  
+    "siteName":"Ecomm",
+    "categories":["Clothing","Smartphone","HouseHold"],
+    "clothing":[
+        {
+            "productName":""
+        }
+    ]
+}

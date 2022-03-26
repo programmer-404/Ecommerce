@@ -1,0 +1,11 @@
+{
+    "port":8001,
+    "database":{
+        "host":"localhost",
+        "user":"root",
+        "password":"password",
+        "database":"ecommerce",
+        "db_port":"3306"
+    },
+    "authKey":"AkshayNarkarEcommerce"
+}

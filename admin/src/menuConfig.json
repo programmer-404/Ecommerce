@@ -1,0 +1,76 @@
+[
+    {
+        "id": "dashboard",
+        "name": "Dashboard",
+        "redirect": "/",
+        "child": []
+    },
+    {
+        "id": "product",
+        "name": "Products",
+        "icon": "fa fa-cog",
+        "redirect": "",
+        "child": [
+            {
+            "id": "addProduct",
+            "name": "Add Product",
+            "redirect": "/addproduct",
+            "child": []
+        },
+        {
+            "id": "productList",
+            "name": "View Products",
+            "redirect": "/productlist",
+            "child": []
+        }
+    ]
+    },
+    {
+        "id": "adminAction",
+        "name": "Admins",
+        "icon": "fa fa-cog",
+        "redirect": "",
+        "child": [
+            {
+            "id": "addadmin",
+            "name": "Add Admin",
+            "redirect": "/addadmin",
+            "child": []
+        },
+        {
+            "id": "adminList",
+            "name": "Admin's List",
+            "redirect": "/adminlist",
+            "child": []
+        }
+    ]
+    },
+    {
+        "id": "brands",
+        "name": "Brands",
+        "icon": "fa fa-cog",
+        "redirect": "",
+        "child": [
+            {
+            "id": "addbrand",
+            "name": "Add Brand",
+            "redirect": "/addbrand",
+            "child": []
+        },
+        {
+            "id": "brandList",
+            "name": "Brand's List",
+            "redirect": "/brandlist",
+            "child": []
+        }
+    ]
+    },
+    {
+        "id": "orders",
+        "name": "Orders",
+        "icon": "fa fa-cog",
+        "redirect": "/orderlist",
+        "child": []
+    }
+
+]
